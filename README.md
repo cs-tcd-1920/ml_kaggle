@@ -2,7 +2,8 @@
 Individual Machine Learning competition as part of the 2019/20 machine learning module at Trinity College Dublin.
 
 # FINAL_Kaggle.py was used to finally submit.
-# Other files were a progress through the competition to reach the score after trying many different possibilities.
+
+Other files were a progress through the competition to reach the score after trying many different possibilities.
 
 * In *Kaggle_New_1.py* it was the beginning, just to ensure a submission, applied concepts and techniques to start with.
 
