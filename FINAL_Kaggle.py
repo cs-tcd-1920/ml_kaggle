@@ -7,12 +7,10 @@
 # from catboost import CatBoostRegressor
 !pip install catboost
 
-from google.colab import drive
-drive.mount('/content/drive')
 
-import os
-cd='/content/drive/My Drive/ml_colab'
-os.listdir(cd)
+# import os
+# cd='/content/drive/My Drive/ml_colab'
+# os.listdir(cd)
 
 countrycsv=cd+'/country_cont copy.csv'
 inccsv=cd+'/tcd ml 2019-20 income prediction training (with labels).csv'
