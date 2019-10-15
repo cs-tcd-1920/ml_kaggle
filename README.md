@@ -14,3 +14,6 @@ Other files were a progress through the competition to reach the score after try
 * In *Kaggle_New_4.py*, after fixing on featuers, ended up deciding to work on algorithms that yield better results. So tried few algorithms like (but not limited to), Gradient Boosting, Decision Trees etc.
 
 * In *FINAL_Kaggle.py* after learning from all the above, before going into deep neural nets, wanted to try sophisticated algorithms like CatBoost. It gave another significant bump in scores. Then worked on hyper parameters, selected features that needed to be passed, and encoding numerical values and random seeding for better results. After several tries with this, it had a satisfactory result.
+
+
+*** While I've tried to include as much details in this README.md file, it isn't possible to cover up the entire changes (be it small or big) committed on the file over time. Hence, while the changes mentioned above may give a gist of what has happened, it definitely doesn't convey/potray the exact changes/progress over the last month and a half (as of writing this file).
