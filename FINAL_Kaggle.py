@@ -150,6 +150,61 @@ def sub_continent(cont):
 
 ###################################################################
 
+############## ENCODING ##################
+
+# year= df_label['Year of Record']
+# age= df_label['Age']
+# soc= df_label['Size of City']
+
+# num_frame=[year,age,soc]
+# num_data=pd.concat(num_frame, sort=False,axis=1)
+# from sklearn.preprocessing import StandardScaler
+# scaler = StandardScaler()
+# scaled_num_data=scaler.fit_transform(num_data)
+
+# gender= df_label['Gender']
+# country=df_label['Country']
+# proff=df_label['Profession']
+# uni_deg=df_label['University Degree']
+
+# #3,7,166,1485 columns to removed after onehotencoding
+# cat_frame=[gender,uni_deg,country,proff]
+# cat_data=pd.concat(cat_frame,sort=False,axis=1)
+
+
+# #from sklearn.preprocessing import StandardScaler
+# #scaler = StandardScaler()
+# #scaled_num_data=scaler.fit_transform(num_data)
+
+# from sklearn.preprocessing import OneHotEncoder
+# enc = OneHotEncoder(handle_unknown='ignore')
+# scaled_cat=enc.fit_transform(cat_data)
+# scaled_cat_df=pd.DataFrame(scaled_cat.toarray())
+
+# del scaled_cat_df[3]
+# del scaled_cat_df[8]
+# del scaled_cat_df[168]
+# del scaled_cat_df[1488]
+
+# final_frame=[pd.DataFrame(scaled_num_data),scaled_cat_df]
+# final_dat=pd.concat(final_frame,sort=False,axis=1)
+
+# #
+
+
+
+# #test=[]
+# #for vals in df_label['Income in EUR']:
+# #    test.append(vals)
+# #y=pd.Series(test)
+
+# print(final_dat.isnull().sum())
+# print(final_dat.isnull().values.any())
+# print(final_dat.isnull().sum().sum())
+
+
+###################################################################
+
 continent,sub_region=sub_continent(df_label['Country'])
 continent=pd.DataFrame(continent)
 sub_region=pd.DataFrame(sub_region)
