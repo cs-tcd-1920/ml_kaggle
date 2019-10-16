@@ -17,3 +17,6 @@ Other files were a progress through the competition to reach the score after try
 
 
 *** While I've tried to include as much details in this README.md file, it isn't possible to cover up the entire changes (be it small or big) committed on each of file over time. Hence, while the changes mentioned above may give a gist of what has happened, it definitely doesn't convey/potray the exact changes/progress over the last month and a half (as of writing this file).
+
+
+*** I've uploaded five solutions CSVs, numbered 9,10,11,14,15, they are the solutions used to for scoring at the end.
